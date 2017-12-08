@@ -30,26 +30,26 @@ require_once 'SimplifyKeys.php';
 require_once 'MerchantModel.php';
 
 $merchant = new Merchant;
-$merchant->name = 'The Simplify Cake';
-$merchant->header = 'Enjoy our delectable cupcakes.';
-$merchant->description = 'We are a delivery only cupcake business. We specialize in made from scratch gourmet cupcakes. Our goal is to change your cupcake experience forever.';
-$merchant->url = 'index.php'; //'http://www.simplifycake.com';
-$merchant->urlDisplay = 'simplifycake.com';
-$merchant->email = 'simplifycake@gmail.com';
+$merchant->name = 'TZXPAGO';
+$merchant->header = 'Smart Phones Accesories.';
+$merchant->description = 'Este es nuestro portal de pagos.';
+$merchant->url = 'index.php'; //'https://tzxpago.herokuapp.com/';
+$merchant->urlDisplay = 'tzxpago.herokuapp.com';
+$merchant->email = 'junior.ho@gmail.com';
 $merchant->mainColor = '#F15E92';
 
-$merchant->products[] = new Product('Mixed Box of Cupcakes', 
-	'You will get one box of mixed cupcakes in the mail. They will arrive in a sealed and chilled bag.', 
+$merchant->products[] = new Product('Cover', 
+	'Nuevo Cover', 
 	'assets/img/cupcake1.png', 
 	1000); //$10.00
 
-$merchant->products[] = new Product('Rainbow Cupcake', 
-	'This is for a single box of rainbow cupcakes.', 
+$merchant->products[] = new Product('Cargador', 
+	'Recarga.', 
 	'assets/img/cupcake2.png', 
 	2000); //$20.00
 
-$merchant->products[] = new Product('One Tiny Cake', 
-	'This is for one piece of our signature cake.', 
+$merchant->products[] = new Product('Cable', 
+	'Connect.', 
 	'assets/img/cupcake3.png', 
 	350); //$3.50
 
